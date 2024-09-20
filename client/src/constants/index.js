@@ -1,4 +1,4 @@
-export const supriseMePrompts=[
+export const surpriseMePrompts=[
     "A futuristic cityscape at sunset, with flying cars and neon lights.",
     "A serene forest with a hidden waterfall and glowing mushrooms.",
     "A steampunk airship floating above a Victorian-era city.",
