@@ -18,7 +18,8 @@ router.route('/').post(async(req,res)=>{
     try {
         const{prompt}=req.body
 
-        const aiResponse = await openai.images.generate({//default model is DALL-E 2
+        const aiResponse = await openai.images.generate({
+            //default model is DALL-E 2
             prompt:prompt,
             n:1,
             size:'1024x1024',
