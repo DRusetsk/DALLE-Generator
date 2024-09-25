@@ -57,7 +57,7 @@ const handleSearchChange=(e)=>{
       </div>
       <div className='mt-16'>
         <FormField
-        labelName='SearchPosts' type='text' name='text' placeholder='Search Posts' value={searchText} handleChange={handleSearchChange}/>
+        labelName='Search Posts' type='text' name='text' placeholder='Enter your search' value={searchText} handleChange={handleSearchChange}/>
       </div>
 
       <div className='mt-10'>
